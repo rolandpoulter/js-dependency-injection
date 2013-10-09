@@ -3,7 +3,7 @@
 An inversion of control implementation for any JavaScript environment.
 
 ```javascript
-require('injendency');
+require('injendency').noPollute();
 
 App = dependency.injection(App);
 

@@ -1,6 +1,6 @@
 var assert = require('assert');
 
-require('./index');
+require('./index').noPollute();
 
 App = dependency.injection(App);
 
