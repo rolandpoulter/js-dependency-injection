@@ -2,13 +2,13 @@
 
 (function () {
 
-	var main = global || window || this,
+	var main = (typeof global === 'object') ? global : (window || this),
 	    conflict = main.dependency;
 
 
 	// Create main dependency injection container.
 
-	main.dependency = dependency(exports || {}, main);
+	main.dependency = dependency(typeof exports === 'object' ? exports : {}, main);
 
 
 	// Fix conflicts with the global object.
