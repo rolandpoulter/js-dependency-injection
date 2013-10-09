@@ -1,0 +1,19 @@
+{
+	"name": "dependency",
+	"version": "0.0.1",
+	"description": "Easy JavaScript dependency injection.",
+	"homepage": "http://github.com/rolandpoulter/js-dependency-injection",
+	"author": "Roland Poulter <rolandpoulter@gmail.com>",
+	"keywords": [
+		"dependency", "injection", "inversion", "control"
+	],
+	"repository": {
+		"type": "git",
+		"url": "http://github.com/js-dependency-injection/js-dependency-injection.git"
+	},
+	"engines": {},
+	"bin": {},
+	"scripts": {},
+	"dependencies": {},
+	"devDependencies": {}
+}
