@@ -2,7 +2,31 @@
 
 An inversion of control implementation for any JavaScript environment.
 
+```javascript
+require('injendency');
 
+App = dependency.injection(App);
+
+function App (config, lalafoofoo) {}
+
+var config = {};
+
+dependency.assign('config', config);
+
+var lalafoofoo = {name: 'lalafoofoo'};
+
+dependency.register(lalafoofoo);
+
+var app1 = new App();
+
+app1.config === config; // true
+app1.lalafoofoo === lalafoofoo; // true
+
+var app2 = new App(null, null);
+
+app2.config === null; // true
+app2.lalafoofoo === null; // true
+```
 
 # The MIT License
 
