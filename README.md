@@ -28,6 +28,12 @@ app2.config === null; // true
 app2.lalafoofoo === null; // true
 ```
 
+
+# Documentation
+
+See https://github.com/rolandpoulter/js-dependency-injection/blob/master/index.js
+
+
 # The MIT License
 
 Copyright (c) 2013 Roland Poulter
