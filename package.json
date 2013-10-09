@@ -1,6 +1,6 @@
 {
 	"name": "injendency",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Easy JavaScript dependency injection.",
 	"homepage": "http://github.com/rolandpoulter/js-dependency-injection",
 	"author": "Roland Poulter <rolandpoulter@gmail.com>",
