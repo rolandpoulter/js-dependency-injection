@@ -145,7 +145,10 @@
 					// assign the dependency.
 
 					if (context && context[name] === undefined) {
-						context[name] = namespace[name];
+						// Don't want to use the value from namespace if a value was passed in
+						// with the arguments.
+
+						context[name] = (args[index] !== undefined) ? args[index] : namespace[name];
 					}
 
 					// Just like with context only we use the index of the name, to assign
